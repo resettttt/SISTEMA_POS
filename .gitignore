@@ -1,33 +1,29 @@
 ```
 # Dependencies
 vendor/
-node_modules/
-
-# Build artifacts
-build/
-dist/
-*.phar
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+composer.lock
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Logs
+*.log
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
-# PHP specific
-*.php~
-phpunit.xml
-coverage/
+# Build/Cache
+node_modules/
+dist/
+build/
+*.tmp
 ```
