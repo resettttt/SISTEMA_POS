@@ -25,6 +25,3 @@ define('ROLE_CLIENT', 3);
 // Configuración de 2FA
 define('OTP_LENGTH', 6);
 define('OTP_EXPIRATION', 300); // 5 minutos
-
-// Incluir la configuración de la base de datos
-require_once 'database_sqlite.php';
